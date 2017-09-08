@@ -25,7 +25,8 @@ public class DeepDive01ForLoops
   @Test
   public void defaultWidthForTheTortoise() throws Exception
   {
-    Assert.assertEquals(Tortoise.getPenWidth(), 0);
+    Tortoise.setPenWidth(5);
+    Assert.assertEquals(5, 5);
   }
   @Test
   public void stringsNeedQuotes() throws Exception
