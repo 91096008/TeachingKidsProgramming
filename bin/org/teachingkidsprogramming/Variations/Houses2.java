@@ -1,9 +1,9 @@
-package org.teachingkidsprogramming.section02methods;
+package org.teachingkidsprogramming.Variations;
 
 import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.utils.ColorUtils.PenColors.Reds;
 
-public class Houses
+public class Houses2
 {
   public static void main(String[] args)
   {
