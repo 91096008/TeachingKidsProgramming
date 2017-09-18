@@ -18,9 +18,15 @@ public class Houses3
     drawHouse(120);
     drawHouse(90);
     drawHouse(20);
+    drawFlatRoof();
   }
   private static void drawHouse(int height)
   {
+    Tortoise.move(150);
+    Tortoise.turn(110);
+    Tortoise.move(20);
+    Tortoise.turn(70);
+    Tortoise.move(145);
     Tortoise.setPenColor(Reds.Crimson);
     Tortoise.move(height);
     Tortoise.turn(45);
@@ -33,7 +39,7 @@ public class Houses3
     Tortoise.move(2);
     Tortoise.turn(-90);
   }
-  private static void drawflatroof()
+  private static void drawFlatRoof()
   {
     Tortoise.turn(90);
     Tortoise.move(30);

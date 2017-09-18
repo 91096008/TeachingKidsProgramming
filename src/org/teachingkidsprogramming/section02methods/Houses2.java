@@ -18,6 +18,7 @@ public class Houses2
     drawHouse(120);
     drawHouse(90);
     drawHouse(20);
+    drawFlatRoof();
   }
   private static void drawHouse(int height)
   {
@@ -33,7 +34,7 @@ public class Houses2
     Tortoise.move(20);
     Tortoise.turn(-90);
   }
-  private static void drawflatroof()
+  private static void drawFlatRoof()
   {
     Tortoise.turn(90);
     Tortoise.move(30);
