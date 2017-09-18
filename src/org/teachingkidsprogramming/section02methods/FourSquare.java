@@ -13,8 +13,7 @@ public class FourSquare
     //      ------------- Recipe for drawSquare --#6.2
     //      Do the following 4 times --#5.1
     //          Change the pen color of the line the tortoise draws to a random color --#3
-    Tortoise
-    Tortoise.move(50);
+    Tortoise.setPenColor(i);
     //          Turn the tortoise 90 degrees to the right --#4
     //      End Repeat --#5.2
     //      ------------- End of drawSquare recipe --#6.3
