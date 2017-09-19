@@ -8,6 +8,7 @@ public class HousesQuiz extends HousesQuizAdapter
 {
   public void questions1Thru6()
   {
+    Tortoise.setSpeed(10);
     // Question 1 
     //   small (recipe below) 
     small();
