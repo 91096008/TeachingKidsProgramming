@@ -69,13 +69,13 @@ public class DeepDive02Variables
     int bearsInABed = 3;
     andTheLittleOneSaid("I'm lonely, come back here");
     bearsInABed++;
-    Assert.assertEquals(bearsInABed, "I'm lonely, come back  here");
+    Assert.assertEquals(bearsInABed, 4);
   }
   @Test
   public void youCanSubtractFromAVariable() throws Exception
   {
     int amountOfHomework = 3;
-    amountOfHomework -= ____;
+    amountOfHomework -= 3;
     Assert.assertEquals(0, amountOfHomework);
   }
   @Test
