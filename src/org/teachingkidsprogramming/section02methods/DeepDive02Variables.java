@@ -90,13 +90,13 @@ public class DeepDive02Variables
   {
     int volumeOfMyVoice = 2;
     int volumeMyMomHears = volumeOfMyVoice * 5;
-    Assert.assertEquals(____, volumeMyMomHears);
+    Assert.assertEquals(10, volumeMyMomHears);
   }
   @Test
   public void youCanDivideVariables() throws Exception
   {
     int inches = 36;
-    int feet = ____ / 12;
+    int feet = 36 / 12;
     Assert.assertEquals(3, feet);
   }
   @Test
@@ -104,7 +104,7 @@ public class DeepDive02Variables
   {
     String xmasList = "bike";
     dreamBigger(); //This method is directly below
-    Assert.assertEquals(xmasList, ___);
+    Assert.assertEquals(xmasList, "bike");
   }
   private void dreamBigger()
   {
