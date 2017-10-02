@@ -37,8 +37,8 @@ public class HiLow3
       if (i == 8)
         ;
     }
-    MessageBox.showMessage("You lost");
     {
+      MessageBox.showMessage("You lost");
     }
   }
 }

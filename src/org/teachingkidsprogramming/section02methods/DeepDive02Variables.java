@@ -114,7 +114,7 @@ public class DeepDive02Variables
   public void methodsCanReturnValues() throws Exception
   {
     String bedPost = prepareForBed(); //This method is directly below
-    Assert.assertEquals(bedPost, ___);
+    Assert.assertEquals(bedPost, "gum");
   }
   public String prepareForBed()
   {
