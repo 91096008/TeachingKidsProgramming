@@ -83,7 +83,7 @@ public class DeepDive02Variables
   {
     int bottlesOfBeerOnTheWall = 99;
     bottlesOfBeerOnTheWall--;
-    Assert.assertEquals(bottlesOfBeerOnTheWall, ____);
+    Assert.assertEquals(bottlesOfBeerOnTheWall, 98);
   }
   @Test
   public void youCanMultiplyVariables() throws Exception

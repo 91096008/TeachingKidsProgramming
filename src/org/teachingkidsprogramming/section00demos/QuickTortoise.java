@@ -8,5 +8,6 @@ public class QuickTortoise
   {
     Tortoise.show();
     // Use the Tortoise object to draw a Tortoise!
+    Tortoise.drawTortoise();
   }
 }
