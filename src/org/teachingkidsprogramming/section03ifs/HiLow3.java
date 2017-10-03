@@ -15,7 +15,7 @@ public class HiLow3
     for (int i = 0; i <= 8; i++)
     {
       int guess = MessageBox.askForNumericalInput("What is your guess?");
-      while (guess < 1 || guess > 100)
+      while (guess < 1 || guess > upperRange)
       {
         MessageBox.showMessage("Please enter a valid guess between 1 and " + upperRange);
         guess = MessageBox.askForNumericalInput("What is your guess?");
@@ -34,11 +34,12 @@ public class HiLow3
       {
         MessageBox.showMessage("Too low");
       }
+      MessageBox.showMessage("You" + " have " + "" + (8 - i) + " " + "" + "" + "Guesses left");
       if (i == 8)
         ;
     }
+    MessageBox.showMessage("You lost");
     {
-      MessageBox.showMessage("You lost");
     }
   }
 }
