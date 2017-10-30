@@ -20,7 +20,7 @@ public class DeepDive04Mastery
   public void theseNumbersCount() throws Exception
   {
     Integer number = 2;
-    Assert.assertEquals(number.getClass(), ______.class);
+    Assert.assertEquals(number.getClass(), _______.class);
   }
   @Test
   public void textTypes() throws Exception
