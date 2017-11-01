@@ -249,11 +249,10 @@ public class DeepDive03Ifs
   @Test
   public void TwoPlusTwo() throws Exception
   {
-    int  = (4);
-    String TwoPlusTwo = "4";
+    String TwoPlusTwo = "5";
     if (true)
     {
-      TwoPlusTwo = "5";
+      TwoPlusTwo = "4";
     }
     Assert.assertEquals("4", TwoPlusTwo);
   }
