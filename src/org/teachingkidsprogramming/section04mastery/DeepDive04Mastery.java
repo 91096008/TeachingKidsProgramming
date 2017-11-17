@@ -44,13 +44,13 @@ public class DeepDive04Mastery
   public void iMeanEverythingIsAnObject() throws Exception
   {
     Object number = 2;
-    Assert.assertEquals(number.getClass(), ______.class);
+    Assert.assertEquals(number.getClass(), Integer.class);
   }
   @Test
   public void iMeanEverySinglethingIsAnObject() throws Exception
   {
     Object number = "Everything";
-    Assert.assertEquals(number.getClass(), ______.class);
+    Assert.assertEquals(number.getClass(), String.class);
   }
   @Test
   public void integersAreATypeOfNumber() throws Exception
