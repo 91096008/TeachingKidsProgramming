@@ -12,7 +12,7 @@ public class AdLibs
     String currentStory = "Today ";
     currentStory = currentStory + "I woke " + currentAdverb + ". ";
     currentStory += "Then I " + currentEdVerb + " ";
-    //  Add the words "my " + currentBodyPart + ". " to the current story --#7
+    currentStory += "my " + currentBodyPart + ". ";
     currentStory += "my " + currentBodyPart + ". ";
     MessageBox.showMessage(currentStory);
   }
