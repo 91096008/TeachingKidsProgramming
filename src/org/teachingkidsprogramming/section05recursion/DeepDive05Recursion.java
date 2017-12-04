@@ -24,13 +24,13 @@ public class DeepDive05Recursion
   @Test
   public void changeThePointerToAHand() throws Exception
   {
-    Tortoise.getBackgroundWindow().___();
+    Tortoise.getBackgroundWindow().setCursor(Cursor.HAND_CURSOR);
     Assert.assertEquals(getCursor(), Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
   }
   @Test
   public void getTheWindow() throws Exception
   {
-    Tortoise.___().setCursor(Cursor.CROSSHAIR_CURSOR);
+    Tortoise.(Cursor.CROSSHAIR_CURSOR).setCursor(Cursor.CROSSHAIR_CURSOR);
     Assert.assertEquals(getCursor(), Cursor.getPredefinedCursor(Cursor.CROSSHAIR_CURSOR));
   }
   @Test
